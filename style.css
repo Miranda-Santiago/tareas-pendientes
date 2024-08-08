@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Text Me One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background:#9adbad;
+    color:#8EC3B0;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:#c4ecdb;
+}
+.encabezado{
+    color:   #47c798;
+    padding: 10px 0 5px 0;
+}
+.agregar{
+    background-color: #BCEAD5;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;  /*espaciado*/
+
+}
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #DEF5E5;   
+    padding-left: 10px; 
+}
+.agregar input::placeholder{
+    font-size: 1.1rem;/*rem tamaño que tiene por default la página*/
+    color: #6ac0a0;
+    border-color: #6ac0a0;
+}
+.agregar i{
+    font-size: 45px;
+    color:#6ac0a0;
+}
+.agregar i:hover{
+    transform: scale(1.1); /*al colocar el cursor, el icono aumenta de tamaño*/
+    cursor: pointer;/*el cursor en el icono cambia de forma*/
+}
+/*sección de tareas*/
+.tareas h2{
+    margin-bottom: 20px;
+    color:#47c798;
+}
+.tareas li{
+    background-color: #DEF5E5;
+    border-radius: 15px;
+    padding: 10px;
+    color: #6ac0a0;
+    margin: 5px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas{
+    font-size: 25px;
+}
+.tareas p{
+    font-weight: 600;
+}
+.tareas i:hover{
+    color: #a1e6c7;
+    cursor:pointer;
+    transform: scale(1.1); 
+}
+.tachado{
+    text-decoration: line-through;
+    color: #a1e6c7;
+}
